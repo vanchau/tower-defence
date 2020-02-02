@@ -1,4 +1,6 @@
 #include "Projectile.hpp"
+#include <cmath>
+
 
 Projectile::Projectile(int damage, float x, float y, Types::NPC type, int target) : damage(damage), x(x), y(y), type(type), target(target) {}
 
