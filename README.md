@@ -1,5 +1,17 @@
 # tower-defence
 
-Compiling and running:
-1. make
-2. ./TD
+Install SFML and Boost
+```sh
+sudo apt-get install libsfml-dev
+sudo apt-get install libboost-all-dev
+```
+
+Run makefile in src
+```sh
+make
+```
+
+Run game
+```sh
+./TD
+```
